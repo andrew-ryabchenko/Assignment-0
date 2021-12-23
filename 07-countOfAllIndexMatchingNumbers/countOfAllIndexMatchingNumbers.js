@@ -1,5 +1,8 @@
 function countOfAllIndexMatchingNumbers(nums) {
-  // Insert code here;
+  for (var i = 0, r = 0; i < nums.length; i++){
+    (nums[i] == i) ? r++ : r;
+  }
+  return r;
 }
 
 // Do not edit this line;

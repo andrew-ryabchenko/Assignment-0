@@ -1,5 +1,11 @@
 function countOfAllBooleans(arr) {
-  // Insert code here;
+  var count = 0;
+  for (let obj of arr){
+    if (typeof obj == 'boolean'){
+      count++;
+    }
+  }
+  return count;
 }
 
 // Do not edit this line;

@@ -28,7 +28,6 @@ THEN: We output 5
 
 ```js
 function countOfAllBooleans(arr) {
-  // Insert code here;
 }
 
 countOfAllBooleans([true, false, true, false, true, 7]) -----> 5;

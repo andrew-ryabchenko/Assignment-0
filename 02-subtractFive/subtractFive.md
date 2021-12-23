@@ -12,7 +12,7 @@ THEN: We output 10
 
 ```js
 function subtractFive(num) {
-  // Insert code here;
+  return num - 5;
 }
 
 subtractFive(15) -----> 10;
